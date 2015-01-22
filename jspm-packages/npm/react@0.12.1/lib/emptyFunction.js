@@ -1,0 +1,3 @@
+/* */
+"format cjs";function makeEmptyFunction(e){return function(){return e}}function emptyFunction(){}emptyFunction.thatReturns=makeEmptyFunction,emptyFunction.thatReturnsFalse=makeEmptyFunction(!1),emptyFunction.thatReturnsTrue=makeEmptyFunction(!0),emptyFunction.thatReturnsNull=makeEmptyFunction(null),emptyFunction.thatReturnsThis=function(){return this},emptyFunction.thatReturnsArgument=function(e){return e},module.exports=emptyFunction;
+//# sourceMappingURL=emptyFunction.js.map

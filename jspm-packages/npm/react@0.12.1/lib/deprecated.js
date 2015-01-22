@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){function t(t,o,a,i,s){var u=!1;if("production"!==e.env.NODE_ENV){var c=function(){return"production"!==e.env.NODE_ENV?r(u,t+"."+o+" will be deprecated in a future version. "+("Use "+t+"."+a+" instead.")):null,u=!0,s.apply(i,arguments)};return c.displayName=t+"_"+o,n(c,s)}return s}var n=require("./Object.assign"),r=require("./warning");module.exports=t}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=deprecated.js.map

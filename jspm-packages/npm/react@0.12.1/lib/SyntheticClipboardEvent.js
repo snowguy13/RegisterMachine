@@ -1,0 +1,3 @@
+/* */
+"format cjs";"use strict";function SyntheticClipboardEvent(e,t,n){SyntheticEvent.call(this,e,t,n)}var SyntheticEvent=require("./SyntheticEvent"),ClipboardEventInterface={clipboardData:function(e){return"clipboardData"in e?e.clipboardData:window.clipboardData}};SyntheticEvent.augmentClass(SyntheticClipboardEvent,ClipboardEventInterface),module.exports=SyntheticClipboardEvent;
+//# sourceMappingURL=SyntheticClipboardEvent.js.map

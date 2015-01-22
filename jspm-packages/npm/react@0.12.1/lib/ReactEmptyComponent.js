@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){"use strict";function t(){return"production"!==e.env.NODE_ENV?s(a,"Trying to return null from a render, but no null placeholder component was injected."):s(a),a()}function n(e){u[e]=!0}function r(e){delete u[e]}function o(e){return u[e]}var a,i=require("./ReactElement"),s=require("./invariant"),u={},c={injectEmptyComponent:function(e){a=i.createFactory(e)}},l={deregisterNullComponentID:r,getEmptyComponent:t,injection:c,isNullComponentID:o,registerNullComponentID:n};module.exports=l}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=ReactEmptyComponent.js.map

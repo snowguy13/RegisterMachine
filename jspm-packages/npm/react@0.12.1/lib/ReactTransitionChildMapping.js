@@ -1,0 +1,3 @@
+/* */
+"format cjs";"use strict";var ReactChildren=require("./ReactChildren"),ReactTransitionChildMapping={getChildMapping:function(e){return ReactChildren.map(e,function(e){return e})},mergeChildMappings:function(e,t){function n(n){return t.hasOwnProperty(n)?t[n]:e[n]}e=e||{},t=t||{};var r={},o=[];for(var a in e)t.hasOwnProperty(a)?o.length&&(r[a]=o,o=[]):o.push(a);var i,s={};for(var u in t){if(r.hasOwnProperty(u))for(i=0;i<r[u].length;i++){var c=r[u][i];s[r[u][i]]=n(c)}s[u]=n(u)}for(i=0;i<o.length;i++)s[o[i]]=n(o[i]);return s}};module.exports=ReactTransitionChildMapping;
+//# sourceMappingURL=ReactTransitionChildMapping.js.map

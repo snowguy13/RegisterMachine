@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){"use strict";function t(t){var a=r.createFactory(t),i=n.createClass({displayName:"ReactFullPageComponent"+t,componentWillUnmount:function(){"production"!==e.env.NODE_ENV?o(!1,"%s tried to unmount. Because of cross-browser quirks it is impossible to unmount some top-level components (eg <html>, <head>, and <body>) reliably and efficiently. To fix this, have a single top-level component that never unmounts render these elements.",this.constructor.displayName):o(!1)},render:function(){return a(this.props)}});return i}var n=require("./ReactCompositeComponent"),r=require("./ReactElement"),o=require("./invariant");module.exports=t}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=createFullPageComponent.js.map

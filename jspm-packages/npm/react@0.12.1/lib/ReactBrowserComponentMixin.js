@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){"use strict";var t=require("./ReactEmptyComponent"),n=require("./ReactMount"),r=require("./invariant"),o={getDOMNode:function(){return"production"!==e.env.NODE_ENV?r(this.isMounted(),"getDOMNode(): A component must be mounted to have a DOM node."):r(this.isMounted()),t.isNullComponentID(this._rootNodeID)?null:n.getNode(this._rootNodeID)}};module.exports=o}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=ReactBrowserComponentMixin.js.map

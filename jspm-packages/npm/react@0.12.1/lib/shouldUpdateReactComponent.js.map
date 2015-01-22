@@ -1,0 +1,1 @@
+{"version":3,"file":"shouldUpdateReactComponent.js","sources":["shouldUpdateReactComponent.src.js"],"names":["shouldUpdateReactComponent","prevElement","nextElement","type","key","_owner","module","exports"],"mappings":";AACA,YAaA,aAaA,SAASA,4BAA2BC,EAAaC,GAC/C,MAAID,IAAeC,GACfD,EAAYE,OAASD,EAAYC,MACjCF,EAAYG,MAAQF,EAAYE,KAChCH,EAAYI,SAAWH,EAAYG,QAC9B,GAEF,EAGTC,OAAOC,QAAUP"}

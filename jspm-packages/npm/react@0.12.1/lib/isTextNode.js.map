@@ -1,0 +1,1 @@
+{"version":3,"file":"isTextNode.js","sources":["isTextNode.src.js"],"names":["isTextNode","object","isNode","nodeType","require","module","exports"],"mappings":";AACA,YAmBA,SAASA,YAAWC,GAClB,MAAOC,QAAOD,IAA8B,GAAnBA,EAAOE,SAPlC,GAAID,QAASE,QAAQ,WAUrBC,QAAOC,QAAUN"}

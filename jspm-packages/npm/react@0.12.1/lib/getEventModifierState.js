@@ -1,0 +1,3 @@
+/* */
+"format cjs";"use strict";function modifierStateGetter(e){var t=this,n=t.nativeEvent;if(n.getModifierState)return n.getModifierState(e);var r=modifierKeyToProp[e];return r?!!n[r]:!1}function getEventModifierState(){return modifierStateGetter}var modifierKeyToProp={Alt:"altKey",Control:"ctrlKey",Meta:"metaKey",Shift:"shiftKey"};module.exports=getEventModifierState;
+//# sourceMappingURL=getEventModifierState.js.map

@@ -1,0 +1,3 @@
+/* */
+"format cjs";"use strict";var ExecutionEnvironment=require("./ExecutionEnvironment"),WHITESPACE_TEST=/^[ \r\n\t\f]/,NONVISIBLE_TEST=/<(!--|link|noscript|meta|script|style)[ \r\n\t\f\/>]/,setInnerHTML=function(e,t){e.innerHTML=t};if(ExecutionEnvironment.canUseDOM){var testElement=document.createElement("div");testElement.innerHTML=" ",""===testElement.innerHTML&&(setInnerHTML=function(e,t){if(e.parentNode&&e.parentNode.replaceChild(e,e),WHITESPACE_TEST.test(t)||"<"===t[0]&&NONVISIBLE_TEST.test(t)){e.innerHTML="\ufeff"+t;var n=e.firstChild;1===n.data.length?e.removeChild(n):n.deleteData(0,1)}else e.innerHTML=t})}module.exports=setInnerHTML;
+//# sourceMappingURL=setInnerHTML.js.map

@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){"use strict";function t(t,r){if("production"!==e.env.NODE_ENV?n(null!=r,"accumulateInto(...): Accumulated items must not be null or undefined."):n(null!=r),null==t)return r;var o=Array.isArray(t),a=Array.isArray(r);return o&&a?(t.push.apply(t,r),t):o?(t.push(r),t):a?[t].concat(r):[t,r]}var n=require("./invariant");module.exports=t}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=accumulateInto.js.map

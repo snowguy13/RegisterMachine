@@ -1,0 +1,1 @@
+{"version":3,"file":"adler32.js","sources":["adler32.src.js"],"names":["adler32","data","a","b","i","length","charCodeAt","MOD","module","exports"],"mappings":";AACA,YAcA,aAQA,SAASA,SAAQC,GAGf,IAAK,GAFDC,GAAI,EACJC,EAAI,EACCC,EAAI,EAAGA,EAAIH,EAAKI,OAAQD,IAC/BF,GAAKA,EAAID,EAAKK,WAAWF,IAAMG,IAC/BJ,GAAKA,EAAID,GAAKK,GAEhB,OAAOL,GAAKC,GAAK,GAbnB,GAAII,KAAM,KAgBVC,QAAOC,QAAUT"}

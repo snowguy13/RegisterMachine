@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){"use strict";function t(e){e.remove()}var n=require("./ReactBrowserEventEmitter"),r=require("./accumulateInto"),o=require("./forEachAccumulated"),a=require("./invariant"),i={trapBubbledEvent:function(t,o){"production"!==e.env.NODE_ENV?a(this.isMounted(),"Must be mounted to trap events"):a(this.isMounted());var i=n.trapBubbledEvent(t,o,this.getDOMNode());this._localEventListeners=r(this._localEventListeners,i)},componentWillUnmount:function(){this._localEventListeners&&o(this._localEventListeners,t)}};module.exports=i}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=LocalEventTrapMixin.js.map

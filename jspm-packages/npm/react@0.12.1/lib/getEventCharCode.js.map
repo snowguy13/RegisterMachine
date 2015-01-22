@@ -1,0 +1,1 @@
+{"version":3,"file":"getEventCharCode.js","sources":["getEventCharCode.src.js"],"names":["getEventCharCode","nativeEvent","charCode","keyCode","module","exports"],"mappings":";AACA,YAaA,aAYA,SAASA,kBAAiBC,GACxB,GAAIC,GACAC,EAAUF,EAAYE,OAgB1B,OAdI,YAAcF,IAChBC,EAAWD,EAAYC,SAGN,IAAbA,GAA8B,KAAZC,IACpBD,EAAW,KAIbA,EAAWC,EAKTD,GAAY,IAAmB,KAAbA,EACbA,EAGF,EAGTE,OAAOC,QAAUL"}

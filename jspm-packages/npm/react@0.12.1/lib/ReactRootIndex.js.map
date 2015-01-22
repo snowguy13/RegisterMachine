@@ -1,0 +1,1 @@
+{"version":3,"file":"ReactRootIndex.js","sources":["ReactRootIndex.src.js"],"names":["ReactRootIndexInjection","injectCreateReactRootIndex","_createReactRootIndex","ReactRootIndex","createReactRootIndex","injection","module","exports"],"mappings":";AACA,YAaA,aAEA,IAAIA,0BAIFC,2BAA4B,SAASC,GACnCC,eAAeC,qBAAuBF,IAItCC,gBACFC,qBAAsB,KACtBC,UAAWL,wBAGbM,QAAOC,QAAUJ"}

@@ -1,0 +1,3 @@
+/* */
+"format cjs";function hasArrayNature(e){return!!e&&("object"==typeof e||"function"==typeof e)&&"length"in e&&!("setInterval"in e)&&"number"!=typeof e.nodeType&&(Array.isArray(e)||"callee"in e||"item"in e)}function createArrayFrom(e){return hasArrayNature(e)?Array.isArray(e)?e.slice():toArray(e):[e]}var toArray=require("./toArray");module.exports=createArrayFrom;
+//# sourceMappingURL=createArrayFrom.js.map

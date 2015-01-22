@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){"use strict";function t(t,n,i){var s=a[t];return null==s?("production"!==e.env.NODE_ENV?r(o,"There is no registered component for the tag %s",t):r(o),new o(t,n)):i===t?("production"!==e.env.NODE_ENV?r(o,"There is no registered component for the tag %s",t):r(o),new o(t,n)):new s.type(n)}var n=require("./Object.assign"),r=require("./invariant"),o=null,a={},i={injectGenericComponentClass:function(e){o=e},injectComponentClasses:function(e){n(a,e)}},s={createInstanceForTag:t,injection:i};module.exports=s}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=ReactNativeComponent.js.map

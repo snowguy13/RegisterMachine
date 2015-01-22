@@ -1,0 +1,1 @@
+{"version":3,"file":"emptyObject.js","sources":["emptyObject.src.js"],"names":["process","emptyObject","env","NODE_ENV","Object","freeze","module","exports","require"],"mappings":";AACA,cACA,SAAUA,GACR,YACA,IAAIC,KACA,gBAAiBD,EAAQE,IAAIC,UAC/BC,OAAOC,OAAOJ,GAEhBK,OAAOC,QAAUN,GAChBO,QAAQ"}

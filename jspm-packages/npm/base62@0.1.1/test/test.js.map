@@ -1,0 +1,1 @@
+{"version":3,"file":"test.js","sources":["test.src.js"],"names":["assert","require","Base62","describe","it","equal","encode","decode"],"mappings":";AACA,YACA,IAAIA,QAASC,QAAQ,qCACjBC,OAASD,QAAQ,YACrBE,UAAS,SAAU,WACjBC,GAAG,4CAA6C,WAC9CJ,OAAOK,MAAMH,OAAOI,OAAO,KAAM,UAGrCH,SAAS,SAAU,WACjBC,GAAG,8CAA+C,WAChDJ,OAAOK,MAAMH,OAAOK,OAAO,MAAO"}

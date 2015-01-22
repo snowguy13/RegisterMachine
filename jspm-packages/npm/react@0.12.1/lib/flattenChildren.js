@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){"use strict";function t(t,n,o){var i=t,s=!i.hasOwnProperty(o);if("production"!==e.env.NODE_ENV?a(s,"flattenChildren(...): Encountered two children with the same key, `%s`. Child keys must be unique; when two children share a key, only the first child will be used.",o):null,s&&null!=n){var u,c=typeof n;u="string"===c?r(n):"number"===c?r(""+n):n,i[o]=u}}function n(e){if(null==e)return e;var n={};return o(e,t,n),n}var r=require("./ReactTextComponent"),o=require("./traverseAllChildren"),a=require("./warning");module.exports=n}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=flattenChildren.js.map

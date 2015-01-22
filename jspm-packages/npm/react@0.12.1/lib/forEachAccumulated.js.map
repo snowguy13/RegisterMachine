@@ -1,0 +1,1 @@
+{"version":3,"file":"forEachAccumulated.js","sources":["forEachAccumulated.src.js"],"names":["forEachAccumulated","arr","cb","scope","Array","isArray","forEach","call","module","exports"],"mappings":";AACA,YAYA,aASA,IAAIA,oBAAqB,SAASC,EAAKC,EAAIC,GACrCC,MAAMC,QAAQJ,GAChBA,EAAIK,QAAQJ,EAAIC,GACPF,GACTC,EAAGK,KAAKJ,EAAOF,GAInBO,QAAOC,QAAUT"}

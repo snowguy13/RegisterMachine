@@ -1,0 +1,3 @@
+/* */
+"format cjs";"use strict";function getLeafNode(e){for(;e&&e.firstChild;)e=e.firstChild;return e}function getSiblingNode(e){for(;e;){if(e.nextSibling)return e.nextSibling;e=e.parentNode}}function getNodeForCharacterOffset(e,t){for(var n=getLeafNode(e),r=0,o=0;n;){if(3==n.nodeType){if(o=r+n.textContent.length,t>=r&&o>=t)return{node:n,offset:t-r};r=o}n=getLeafNode(getSiblingNode(n))}}module.exports=getNodeForCharacterOffset;
+//# sourceMappingURL=getNodeForCharacterOffset.js.map

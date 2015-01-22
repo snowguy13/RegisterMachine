@@ -1,0 +1,1 @@
+{"version":3,"file":"camelize.js","sources":["camelize.src.js"],"names":["camelize","string","replace","_hyphenPattern","_","character","toUpperCase","module","exports"],"mappings":";AACA,YAwBA,SAASA,UAASC,GAChB,MAAOA,GAAOC,QAAQC,eAAgB,SAASC,EAAGC,GAChD,MAAOA,GAAUC,gBAbrB,GAAIH,gBAAiB,OAiBrBI,QAAOC,QAAUR"}

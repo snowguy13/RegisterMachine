@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){var t=require("./emptyFunction"),n={listen:function(e,t,n){return e.addEventListener?(e.addEventListener(t,n,!1),{remove:function(){e.removeEventListener(t,n,!1)}}):e.attachEvent?(e.attachEvent("on"+t,n),{remove:function(){e.detachEvent("on"+t,n)}}):void 0},capture:function(n,r,o){return n.addEventListener?(n.addEventListener(r,o,!0),{remove:function(){n.removeEventListener(r,o,!0)}}):("production"!==e.env.NODE_ENV&&console.error("Attempted to listen to events during the capture phase on a browser that does not support the capture phase. Your application will not receive some events."),{remove:t})},registerDefault:function(){}};module.exports=n}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=EventListener.js.map

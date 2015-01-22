@@ -1,0 +1,3 @@
+/* */
+"format cjs";var from=require("from"),through=require("../index"),tape=require("tape");tape("simple async example",function(e){var t=0,r=[1,2,3,4,5],n=[];from(r).pipe(through(function(e){this.pause(),t++,setTimeout(function(){console.log("pushing data",e),this.push(e),this.resume()}.bind(this),300)})).pipe(through(function(e){console.log("pushing data second time",e),this.push(e)})).on("data",function(e){n.push(e)}).on("end",function(){e.deepEqual(n,r),e.end()})});
+//# sourceMappingURL=async.js.map

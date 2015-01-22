@@ -1,0 +1,3 @@
+/* */
+"format cjs";var KEYWORDS=["break","do","in","typeof","case","else","instanceof","var","catch","export","new","void","class","extends","return","while","const","finally","super","with","continue","for","switch","yield","debugger","function","this","default","if","throw","delete","import","try"],FUTURE_RESERVED_WORDS=["enum","await","implements","package","protected","static","interface","private","public"],LITERALS=["null","true","false"],RESERVED_WORDS=[].concat(KEYWORDS,FUTURE_RESERVED_WORDS,LITERALS),reservedWordsMap={};RESERVED_WORDS.forEach(function(e){reservedWordsMap[e]=!0}),exports.isReservedWord=function(e){return!!reservedWordsMap[e]};
+//# sourceMappingURL=reserved-words-helper.js.map

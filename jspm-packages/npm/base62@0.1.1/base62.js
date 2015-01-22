@@ -1,0 +1,3 @@
+/* */
+"format cjs";var Base62=function(e){return e.chars=["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"],e.encode=function(e){if(0===e)return"0";for(var t="";e>0;)t=this.chars[e%62]+t,e=Math.floor(e/62);return t},e.decode=function(e,t,n,r){for(t=n=(e===(/\W|_|^$/.test(e+="")||e))-1;r=e.charCodeAt(n++);)t=62*t+r-[,48,29,87][r>>5];return t},e}({});module.exports=Base62;
+//# sourceMappingURL=base62.js.map

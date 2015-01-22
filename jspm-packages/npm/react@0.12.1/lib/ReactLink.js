@@ -1,0 +1,3 @@
+/* */
+"format cjs";"use strict";function ReactLink(e,t){this.value=e,this.requestChange=t}function createLinkTypeChecker(e){var t={value:"undefined"==typeof e?React.PropTypes.any.isRequired:e.isRequired,requestChange:React.PropTypes.func.isRequired};return React.PropTypes.shape(t)}var React=require("./React");ReactLink.PropTypes={link:createLinkTypeChecker},module.exports=ReactLink;
+//# sourceMappingURL=ReactLink.js.map

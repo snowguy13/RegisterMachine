@@ -1,0 +1,3 @@
+/* */
+"format cjs";"use strict";var adler32=require("./adler32"),ReactMarkupChecksum={CHECKSUM_ATTR_NAME:"data-react-checksum",addChecksumToMarkup:function(e){var t=adler32(e);return e.replace(">"," "+ReactMarkupChecksum.CHECKSUM_ATTR_NAME+'="'+t+'">')},canReuseMarkup:function(e,t){var n=t.getAttribute(ReactMarkupChecksum.CHECKSUM_ATTR_NAME);n=n&&parseInt(n,10);var r=adler32(e);return r===n}};module.exports=ReactMarkupChecksum;
+//# sourceMappingURL=ReactMarkupChecksum.js.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"camelizeStyleName.js","sources":["camelizeStyleName.src.js"],"names":["camelizeStyleName","string","camelize","replace","msPattern","require","module","exports"],"mappings":";AACA,YAaA,aAuBA,SAASA,mBAAkBC,GACzB,MAAOC,UAASD,EAAOE,QAAQC,UAAW,QAtB5C,GAAIF,UAAWG,QAAQ,cAEnBD,UAAY,OAuBhBE,QAAOC,QAAUP"}

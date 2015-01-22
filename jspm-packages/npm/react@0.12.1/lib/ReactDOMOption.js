@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){"use strict";var t=require("./ReactBrowserComponentMixin"),n=require("./ReactCompositeComponent"),r=require("./ReactElement"),o=require("./ReactDOM"),a=require("./warning"),i=r.createFactory(o.option.type),s=n.createClass({displayName:"ReactDOMOption",mixins:[t],componentWillMount:function(){"production"!==e.env.NODE_ENV&&("production"!==e.env.NODE_ENV?a(null==this.props.selected,"Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>."):null)},render:function(){return i(this.props,this.props.children)}});module.exports=s}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=ReactDOMOption.js.map

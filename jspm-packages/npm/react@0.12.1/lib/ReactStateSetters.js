@@ -1,0 +1,3 @@
+/* */
+"format cjs";"use strict";function createStateKeySetter(e,t){var n={};return function(r){n[t]=r,e.setState(n)}}var ReactStateSetters={createStateSetter:function(e,t){return function(n,r,o,a,i,s){var u=t.call(e,n,r,o,a,i,s);u&&e.setState(u)}},createStateKeySetter:function(e,t){var n=e.__keySetters||(e.__keySetters={});return n[t]||(n[t]=createStateKeySetter(e,t))}};ReactStateSetters.Mixin={createStateSetter:function(e){return ReactStateSetters.createStateSetter(this,e)},createStateKeySetter:function(e){return ReactStateSetters.createStateKeySetter(this,e)}},module.exports=ReactStateSetters;
+//# sourceMappingURL=ReactStateSetters.js.map

@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){"use strict";var t=require("./LinkedStateMixin"),n=require("./React"),r=require("./ReactComponentWithPureRenderMixin"),o=require("./ReactCSSTransitionGroup"),a=require("./ReactTransitionGroup"),i=require("./ReactUpdates"),s=require("./cx"),u=require("./cloneWithProps"),c=require("./update");n.addons={CSSTransitionGroup:o,LinkedStateMixin:t,PureRenderMixin:r,TransitionGroup:a,batchedUpdates:i.batchedUpdates,classSet:s,cloneWithProps:u,update:c},"production"!==e.env.NODE_ENV&&(n.addons.Perf=require("./ReactDefaultPerf"),n.addons.TestUtils=require("./ReactTestUtils")),module.exports=n}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=ReactWithAddons.js.map

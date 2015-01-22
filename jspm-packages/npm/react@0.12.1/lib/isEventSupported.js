@@ -1,0 +1,3 @@
+/* */
+"format cjs";"use strict";function isEventSupported(e,t){if(!ExecutionEnvironment.canUseDOM||t&&!("addEventListener"in document))return!1;var n="on"+e,r=n in document;if(!r){var o=document.createElement("div");o.setAttribute(n,"return;"),r="function"==typeof o[n]}return!r&&useHasFeature&&"wheel"===e&&(r=document.implementation.hasFeature("Events.wheel","3.0")),r}var ExecutionEnvironment=require("./ExecutionEnvironment"),useHasFeature;ExecutionEnvironment.canUseDOM&&(useHasFeature=document.implementation&&document.implementation.hasFeature&&document.implementation.hasFeature("","")!==!0),module.exports=isEventSupported;
+//# sourceMappingURL=isEventSupported.js.map

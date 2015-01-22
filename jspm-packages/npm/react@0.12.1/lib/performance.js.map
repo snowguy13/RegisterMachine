@@ -1,0 +1,1 @@
+{"version":3,"file":"performance.js","sources":["performance.src.js"],"names":["ExecutionEnvironment","require","performance","canUseDOM","window","msPerformance","webkitPerformance","module","exports"],"mappings":";AACA,YAaA,aAEA,IAAIA,sBAAuBC,QAAQ,0BAE/BC,WAEAF,sBAAqBG,YACvBD,YACEE,OAAOF,aACPE,OAAOC,eACPD,OAAOE,mBAGXC,OAAOC,QAAUN"}

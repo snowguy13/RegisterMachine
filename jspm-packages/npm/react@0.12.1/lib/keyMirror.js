@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){"use strict";var t=require("./invariant"),n=function(n){var r,o={};"production"!==e.env.NODE_ENV?t(n instanceof Object&&!Array.isArray(n),"keyMirror(...): Argument must be an object."):t(n instanceof Object&&!Array.isArray(n));for(r in n)n.hasOwnProperty(r)&&(o[r]=r);return o};module.exports=n}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=keyMirror.js.map

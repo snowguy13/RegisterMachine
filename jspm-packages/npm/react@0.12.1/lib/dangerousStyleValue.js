@@ -1,0 +1,3 @@
+/* */
+"format cjs";"use strict";function dangerousStyleValue(e,t){var n=null==t||"boolean"==typeof t||""===t;if(n)return"";var r=isNaN(t);return r||0===t||isUnitlessNumber.hasOwnProperty(e)&&isUnitlessNumber[e]?""+t:("string"==typeof t&&(t=t.trim()),t+"px")}var CSSProperty=require("./CSSProperty"),isUnitlessNumber=CSSProperty.isUnitlessNumber;module.exports=dangerousStyleValue;
+//# sourceMappingURL=dangerousStyleValue.js.map

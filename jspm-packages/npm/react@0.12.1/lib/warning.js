@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){"use strict";var t=require("./emptyFunction"),n=t;"production"!==e.env.NODE_ENV&&(n=function(e,t){for(var n=[],r=2,o=arguments.length;o>r;r++)n.push(arguments[r]);if(void 0===t)throw new Error("`warning(condition, format, ...args)` requires a warning message argument");if(!e){var a=0;console.warn("Warning: "+t.replace(/%s/g,function(){return n[a++]}))}}),module.exports=n}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=warning.js.map

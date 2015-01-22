@@ -1,0 +1,1 @@
+{"version":3,"file":"memoizeStringOnly.js","sources":["memoizeStringOnly.src.js"],"names":["memoizeStringOnly","callback","cache","string","hasOwnProperty","call","this","module","exports"],"mappings":";AACA,YAaA,aAQA,SAASA,mBAAkBC,GACzB,GAAIC,KACJ,OAAO,UAASC,GACd,MAAID,GAAME,eAAeD,GAChBD,EAAMC,GAEND,EAAMC,GAAUF,EAASI,KAAKC,KAAMH,IAKjDI,OAAOC,QAAUR"}

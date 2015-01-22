@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){function t(t,n,r,o,a,i,s){if(t=t||{},"production"!==e.env.NODE_ENV&&s)throw new Error("Too many arguments passed to copyProperties");for(var u,c=[n,r,o,a,i],l=0;c[l];){u=c[l++];for(var p in u)t[p]=u[p];u.hasOwnProperty&&u.hasOwnProperty("toString")&&"undefined"!=typeof u.toString&&t.toString!==u.toString&&(t.toString=u.toString)}return t}module.exports=t,console.warn("react/lib/copyProperties has been deprecated and will be removed in the next version of React. All uses can be replaced with Object.assign(obj, a, b, ...) or _.extend(obj, a, b, ...).")}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=copyProperties.js.map

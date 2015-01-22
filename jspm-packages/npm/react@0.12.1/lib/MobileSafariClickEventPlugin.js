@@ -1,0 +1,3 @@
+/* */
+"format cjs";"use strict";var EventConstants=require("./EventConstants"),emptyFunction=require("./emptyFunction"),topLevelTypes=EventConstants.topLevelTypes,MobileSafariClickEventPlugin={eventTypes:null,extractEvents:function(e,t,n,r){if(e===topLevelTypes.topTouchStart){var o=r.target;o&&!o.onclick&&(o.onclick=emptyFunction)}}};module.exports=MobileSafariClickEventPlugin;
+//# sourceMappingURL=MobileSafariClickEventPlugin.js.map

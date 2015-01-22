@@ -1,0 +1,11 @@
+{
+  "jspm": {
+    "directories": {
+      "jspmPackages": "jspmPackages"
+    },
+    "dependencies": {
+      "jquery": "^2.1.1",
+      "github:facebook/react": "^0.12.1"
+    }
+  }
+}

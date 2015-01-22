@@ -1,0 +1,1 @@
+{"version":3,"file":"getReactRootElementInContainer.js","sources":["getReactRootElementInContainer.src.js"],"names":["getReactRootElementInContainer","container","nodeType","DOC_NODE_TYPE","documentElement","firstChild","module","exports"],"mappings":";AACA,YAYA,aASA,SAASA,gCAA+BC,GACtC,MAAKA,GAIDA,EAAUC,WAAaC,cAClBF,EAAUG,gBAEVH,EAAUI,WANV,KATX,GAAIF,eAAgB,CAmBpBG,QAAOC,QAAUP"}

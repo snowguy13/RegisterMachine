@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){function t(t){var r=t.length;if("production"!==e.env.NODE_ENV?n(!Array.isArray(t)&&("object"==typeof t||"function"==typeof t),"toArray: Array-like object expected"):n(!Array.isArray(t)&&("object"==typeof t||"function"==typeof t)),"production"!==e.env.NODE_ENV?n("number"==typeof r,"toArray: Object needs a length property"):n("number"==typeof r),"production"!==e.env.NODE_ENV?n(0===r||r-1 in t,"toArray: Object should have keys for indices"):n(0===r||r-1 in t),t.hasOwnProperty)try{return Array.prototype.slice.call(t)}catch(o){}for(var a=Array(r),i=0;r>i;i++)a[i]=t[i];return a}var n=require("./invariant");module.exports=t}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=toArray.js.map

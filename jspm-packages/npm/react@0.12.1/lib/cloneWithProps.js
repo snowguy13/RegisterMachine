@@ -1,0 +1,3 @@
+/* */
+"format cjs";!function(e){"use strict";function t(t,o){"production"!==e.env.NODE_ENV&&("production"!==e.env.NODE_ENV?a(!t.ref,"You are calling cloneWithProps() on a child with a ref. This is dangerous because you're creating a new child which will not be added as a ref to its parent."):null);var s=r.mergeProps(o,t.props);return!s.hasOwnProperty(i)&&t.props.hasOwnProperty(i)&&(s.children=t.props.children),n.createElement(t.type,s)}var n=require("./ReactElement"),r=require("./ReactPropTransferer"),o=require("./keyOf"),a=require("./warning"),i=o({children:null});module.exports=t}(require("github:jspm/nodelibs@0.0.3/process"));
+//# sourceMappingURL=cloneWithProps.js.map
