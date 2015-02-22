@@ -7,8 +7,21 @@ var React = require("react");
  *         Instruction's (or Macro's) type. Data is assumed to
  *         contain the properties shortName, fullName, description,
  *         and parameters. Additional properties are ignored.
+ *   initialArgs
+ *         The initial arguments to be displayed in the header
  */
 var Header = React.createClass({
+  propTypes: {
+    data: React.PropTypes.shape({
+      "shortName":   React.PropTypes.string.isRequired,
+      "fullName":    React.PropTypes.string.isRequired,
+      "description": React.PropTypes.string.isRequired,
+      "parameters":  React.PropTypes.objectOf( React.PropTypes.string ).isRequired
+    }).isRequired,
+
+    initialArgs: React.PropTypes.
+  },
+
   getArguments: function() {
     var refs = this.refs;
 
@@ -20,7 +33,8 @@ var Header = React.createClass({
   // stateless
   render: function() {
     var contents = [],
-        data = this.props.data;
+        data = this.props.data,
+        initArgs = this.props.initialArgs;
     
     // the short name of the header
     contents.push(<span className="RegisterMachine-Header-Name">
@@ -29,7 +43,11 @@ var Header = React.createClass({
 
     // the parameters
     data.parameters.forEach(function( paramData ) {
-      contents.push(<Parameter {...paramData} ref={ paramData.name } />);
+      var name = paramData.name;
+
+      contents.push(<Parameter {...paramData}
+                               initialValue={ initArgs[ name ] }
+                               ref={ name } />);
     });
 
     // put it all together

@@ -5,7 +5,7 @@ var Header          = require("react:Header");
 var Instruction     = require("react:Instruction");
 var RegisterMachine = require("theory/RegisterMachine");
 
-var typeNames = [
+/*var typeNames = [
   "DEB", "INC", "END"
 ];
 
@@ -40,8 +40,18 @@ var Macro = React.createClass({
       <InstructionList ref="list" instructions={ macro.templates } />
     </div>);
   }
-});
+});*/
 
+/**
+ * Props:
+ *   initialInstructions
+ *     A list of objects defining the initial set of instructions to be displayed
+ *     in this list. Each object should be of the format:
+ *       {
+ *         type: ("Macro:")? "[a-zA-z]"+
+ *         args: an object mapping parameters to their initial used values
+ *       }
+ */
 var InstructionList = React.createClass({
   getInitialState: function() {
     return {
@@ -54,14 +64,9 @@ var InstructionList = React.createClass({
         instructions = this.state.instructions;
     
     contents = instructions.map(function( current ) {
-      if( current instanceof RegisterMachine.Macro ) {
-        // create a sub-list for this macro's steps
-        return (<Macro macro={ current } />);
-      } else {
-        // create a simple instruction
-        //return (<Instruction instruction={ current } />);
-        return (<Instruction type={  } />);
-      }
+      
+
+      return (<Instruction />);
     });
 
     return (<div className="RegisterMachine-InstructionList">

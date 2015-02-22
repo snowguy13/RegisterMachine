@@ -4,11 +4,16 @@ var Params = require("data/Parameters");
 
 /**
  * Props:
- *   name  The name of the parameter, relative to its parent instruction or macro.
+ *   name  
+ *         The name of the parameter, relative to its parent instruction or macro.
  *         This will be displayed next to the parameter's value.
- *   description  The description of the parameter, indicating its meaning to its parent.
- *   type  The type of the parameter, responsible for determining what values are
+ *   description  
+ *         The description of the parameter, indicating its meaning to its parent.
+ *   type  
+ *         The type of the parameter, responsible for determining what values are
  *         valid and how its value will be used
+ *   initialValue
+ *         The value to use initially for this parameters
  */
 var Parameter = React.createClass({
   getInitialState: function() {
